@@ -66,9 +66,38 @@ nav.menu-desktop a:hover{
 section.main-bg{
     width: 100%;
     height: 450px;
+    padding: 20px 0;
     background-image: url('../img/pexels-visit-greenland-360912.jpg');
     background-size: 100% 100%;
     background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+section.main-bg > .container{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    left: 0;
+    top: 0;
+}
+
+section.main-bg{
+    color: #52aaa7;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+section.main-bg p{
     color: white;
+    font-size: 17px;
+    margin-top: 15px;
     text-align: justify;
 }
