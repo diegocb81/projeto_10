@@ -33,7 +33,8 @@ header{
 }
 
 nav.menu-desktop li.selected{
-    font-weight: bold;
+    font-weight: normal;
+    text-decoration: underline;
 }
 
 nav.menu-desktop{
@@ -58,4 +59,16 @@ nav.menu-desktop a{
 
 nav.menu-desktop a:hover{
     text-decoration: underline;
+}
+
+/*Sessão Main*/
+
+section.main-bg{
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/pexels-visit-greenland-360912.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    color: white;
+    text-align: justify;
 }
