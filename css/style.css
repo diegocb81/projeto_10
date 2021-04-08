@@ -126,3 +126,31 @@ section.diferenciais{
     font-weight: normal;
     font-size: 27px;
 }
+
+.icones-diferenciais{
+    margin-top: 35px;
+}
+
+.box-icone-single{
+    float: left;
+    width: 33.3%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.box-icone-single h2{
+    color: #8a6b62;
+    font-size: 40px;
+}
+
+.box-icone-single p{
+    color: #646464;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+@media screen and (max-widt: 768px){
+    .box-icone-single{
+        width: 100%;
+    }
+}
