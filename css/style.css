@@ -172,6 +172,14 @@ section.sobre-equipe > .container{
     margin-top: 10px;
 }
 
+.img-avatar{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+
 @media screen and (max-widt: 768px){
     .box-icone-single{
         width: 100%;
