@@ -213,10 +213,44 @@ section.sobre-equipe > .container{
 
 section.inscricao{
     background: #52aaa7;
-    padding: 10px 0;
+    padding: 20px 0;
+}
+
+h2.inscricao-texto{
+    font-weight: normal;
+    color: white ;
+}
+
+h2.inscricao-texto em{
+    padding-right: 7px;
+}
+
+.inscricao-form input[type=text]{
+    width: calc(100% - 120px);
+    height: 40px;
+    background: white;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.inscricao-form input[type=submit]{
+    width: 120px;
+    height: 40px;
+    background: #1d6c64;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 768px){
+    .w50{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
     .box-icone-single{
         width: 100%;
     }
