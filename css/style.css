@@ -261,7 +261,25 @@ section.cards{
     height: 200px;
 }
 
+.card-single h3{
+    font-weight: normal;
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+.card-single p{
+    font-weight: lighter;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin: 10px 0;
+
+}
+
 @media screen and (max-width: 768px){
+    .card-single{
+        width: 100%;
+    }
     .w50{
         width: 100%;
         margin-bottom: 20px;
@@ -278,5 +296,11 @@ section.cards{
     .sobre-container{
     width: 100%;
     margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .card-single{
+        padding: 10px;
     }
 }
