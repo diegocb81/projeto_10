@@ -539,14 +539,62 @@ section.sobre__final p{
     bottom: 10px;
 }
 
+section.contato{
+    padding: 30px 0;
+}
+
+.formulario h2{
+    background: #DDDDDD;
+    text-align: center;
+    color: #ACAC9D;
+    font-size: 17px;
+    font-weight: normal;
+    border-left: 5px solid #CCCCCC;
+    padding: 4px 0;
+}
+
+section.contato .w50,
+section.contato .w100{
+    padding-right:0 10px;
+}
+
+.formulario form{
+    margin-top: 10px;
+}
+
+.formulario input[type=text],
+.formulario input[type=email]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-left: 8px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+    resize: vertical;
+}
+
 @media screen and (max-width: 768px){
+    .formulario input[type=text],
+    .formulario input[type=email]{
+        margin-bottom: 0px;
+    }
+    .formulario textarea{
+        margin-bottom: 0px;
+    }
     footer.footer1{
         text-align: center;
     }
     .card-single{
         width: 100%;
     }
-    .w50,.w33{
+    .w33,.w40, .w50, .w60, .w100{
         width: 100%;
         margin-bottom: 20px;
     }
