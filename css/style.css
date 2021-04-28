@@ -19,8 +19,8 @@
 }
 
 .w33{
-    float: left;
     width: 33.3%;
+    float: left;
 }
 
 .center{
@@ -120,7 +120,7 @@ nav.menu-desktop a:hover{
 section.main-bg{
     width: 100%;
     height: 450px;
-    padding: 20px 0;
+    padding: 140px 200px 0;
     background-image: url('../img/pexels-visit-greenland-360912.jpg');
     background-size: 100% 100%;
     background-position: center;
@@ -143,7 +143,7 @@ section.main-bg > .container{
     top: 0;
 }
 
-section.main-bg{
+section.main-bg h2{
     color: #52aaa7;
     font-size: 30px;
     font-weight: normal;
@@ -266,10 +266,6 @@ h2.inscricao-texto{
     color: white ;
 }
 
-h2.inscricao-texto em{
-    padding-right: 7px;
-}
-
 .inscricao-form input[type=text]{
     width: calc(100% - 120px);
     height: 40px;
@@ -287,7 +283,7 @@ h2.inscricao-texto em{
     border: 0;
     color: white;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 section.cards{
@@ -326,6 +322,7 @@ footer.footer1{
     background: #52aaa7;
     padding: 20px 0;
     color: white;
+    text-align: center;
 }
 
 footer.footer1 h2{
@@ -345,16 +342,15 @@ footer.footer1 a{
 
 div.group-icons a{
     display: inline-block;
-    margin: 0 10px;
     font-size: 18px;
     margin: 15px 10px;
 }
 
 footer.footer2{
+    padding: 15px 0;
     background: #237a70;
     text-align: center;
     color: white;
-    padding: 15px 0;
 }
 
 /*Página Sobre*/
@@ -461,6 +457,45 @@ section.equipe{
     padding: 40px 0;
 }
 
+.equipe-circles{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equipe-circle-single{
+    text-align: center;
+    padding: 0 20px;
+    width: 33.3%;
+}
+
+.equipe-circle-single h3{
+    margin-top: 8px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.equipe-circle-single p{
+    font-weight: lighter;
+}
+
+.avatar-single{
+    position: relative;
+    width: 60%;
+    padding-top: 60%;
+    margin: 0 auto;
+}
+
+.avatar-single-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: #ccc;
+    background-size: 100% 100%;
+}
 
 @media screen and (max-width: 768px){
     footer.footer1{
@@ -493,14 +528,17 @@ section.equipe{
 }
 
 @media screen and (max-width: 500px){
+    .equipe-circle-single{
+        padding: 0 8px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
     nav.menu-desktop{
         display: none;
     }
-
     nav.menu-mobile{
         display: block;
     }
-
     .card-single{
         padding: 10px;
     }
