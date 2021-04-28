@@ -13,13 +13,23 @@
     padding: 0 2%;
 }
 
+.w33{
+    width: 33.3%;
+    float: left;
+}
+
+.w40{
+    width: 40%;
+    float: left;
+}
+
 .w50{
     width: 50%;
     float: left;
 }
 
-.w33{
-    width: 33.3%;
+.w60{
+    width: 60%;
     float: left;
 }
 
