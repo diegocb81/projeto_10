@@ -497,6 +497,38 @@ section.equipe{
     background-size: 100% 100%;
 }
 
+section.sobre__final{
+    background-color: rgb(230,230,230);
+    border-top: 2px solid rgb(210,210,210);
+    padding: 20px 0;
+} 
+
+section.sobre__final p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.card-text{
+    width: 80%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.card-text img{
+    max-width: 100%;
+}
+
+.card-text h3{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
 @media screen and (max-width: 768px){
     footer.footer1{
         text-align: center;
@@ -528,6 +560,9 @@ section.equipe{
 }
 
 @media screen and (max-width: 500px){
+    .card-text{
+        width: 100%;
+    }
     .equipe-circle-single{
         padding: 0 8px;
         width: 100%;
